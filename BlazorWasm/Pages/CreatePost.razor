@@ -1,0 +1,73 @@
+@page "/CreatePost"
+@using BlazorWasm.Services
+@using BlazorWasm.Services.Http
+@using global::Shared.Dtos
+@using global::Shared.Dtos.RedditPost
+@using System.Security.Principal
+@inject IForumService ForumService;
+@inject IAuthService AuthService
+
+<AuthorizeView>
+    <NotAuthorized>
+      <div class="card">
+                  <h3>Hello, you're gonna have to be logged in to create a post...</h3>
+              </div>
+    </NotAuthorized>
+    <Authorized>
+          <div class="card">
+                    <h3>Create Post!</h3>
+                    <div class="field">
+                        <label>Title: </label>
+                        <input type="text" @bind="title"/>
+                    </div>
+                    <div class="field">
+                        <label>Body: </label>
+                        <input type="text" @bind="body"/>
+                    </div>
+                   
+        
+                    @if (!string.IsNullOrEmpty(_errorLabel))
+                    {
+                        <div class="field">
+                            <label style="color: red">
+                                @_errorLabel
+                            </label>
+                        </div>
+                    }
+                    <div class="field">
+                        <button class="signupbtn" @onclick="CreatePostAsync">Create Post</button>
+                    </div>
+                </div>
+    </Authorized>
+</AuthorizeView>
+
+
+
+@code {
+
+    private string title="";
+    private string body = "";
+    public string? _errorLabel;
+
+    private async Task CreatePostAsync()
+    {
+        _errorLabel = "";
+        try
+        {
+           await ForumService.CreatePost(
+                title,
+                body,
+                new UserBasicDto()
+                {
+                    Username = AuthService.GetAuthAsync().Result.Identity!.Name
+                });
+
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            _errorLabel = e.Message;
+        }
+    }
+
+}

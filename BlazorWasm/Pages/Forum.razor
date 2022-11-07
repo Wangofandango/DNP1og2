@@ -1,0 +1,80 @@
+@page "/Forum"
+@using global::Shared.Models
+@using BlazorWasm.Services
+@using global::Shared.Dtos.RedditPost
+@inject NavigationManager navMgr
+@inject IForumService ForumService;
+<h3>Forum</h3>
+
+<button class="createPost" @onclick="GoToCreatePost">Create Post</button> Lav CSS så den kommer et sted hen
+
+
+@if (_redditPosts == null && errorLabel == null)
+{
+    <div>
+        <label>
+            Loading..
+        </label>
+    </div>
+}
+else if (errorLabel != null)
+{
+     <div class="field">
+         <label style="color: red">
+             @errorLabel
+         </label>
+     </div>
+}
+else if (_redditPosts != null)
+{
+    <table>
+        <thead>
+        <tr>
+            <th>Title:</th>
+            <th>Author:</th>
+            <th>Created:</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var post in _redditPosts)
+        {
+            <tr onclick="@(() => goToSpecificPost(post.postId))">
+                <td>@post.title</td>
+                <td>@post.author</td>
+                <td>@post.created</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+@code {
+    private IEnumerable<RedditPostBasicDto>? _redditPosts;
+    private string errorLabel;
+    
+    protected override async void OnInitialized()
+    {
+        try
+        {
+            errorLabel = null;
+        _redditPosts = await ForumService.getAsync(); //Giv mig alle posts.
+
+            StateHasChanged();
+        }
+        catch (Exception e)
+        {
+            errorLabel = e.Message;
+            _redditPosts = null;
+        }
+    }
+
+    private void GoToCreatePost()
+    {
+        navMgr.NavigateTo("/CreatePost");
+    }
+
+    private void goToSpecificPost(int PostId)
+    {
+        navMgr.NavigateTo($"/post/{PostId}");
+    }
+
+}

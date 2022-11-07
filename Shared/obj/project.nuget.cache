@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "wfV/uATZ7/PSRQraEMtuHrwL4ViQ+rpuxotPI9dwdE8wmvT9ewvCt+eSw4V51U0YObBxyvU4/xnmg1t4sbTjBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP 1 & 2\\Shared\\Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\miloA\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.8\\microsoft.aspnetcore.authorization.6.0.8.nupkg.sha512",
+    "C:\\Users\\miloA\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.8\\microsoft.aspnetcore.metadata.6.0.8.nupkg.sha512",
+    "C:\\Users\\miloA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\miloA\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\miloA\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\miloA\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\miloA\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

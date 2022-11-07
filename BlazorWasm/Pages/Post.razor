@@ -1,0 +1,62 @@
+@page "/post/{id:int}"
+@using System.Reflection
+@using BlazorWasm.Services
+@using global::Shared.Models
+@inject IForumService ForumService;
+
+<AuthorizeView>
+    <Authorized>
+        <h3>@title</h3>
+        <div>
+            <h5>@author</h5>
+            <h5>@created</h5>
+        </div>
+        
+        <text>
+            @body
+        </text>
+        
+        
+        <label>@errorLabel</label>
+    </Authorized>
+    <NotAuthorized>
+        <h5 @bind="errorLabel"> You have to be logged in to view a post</h5>
+    </NotAuthorized>
+</AuthorizeView>
+
+
+
+
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+    
+    
+    private string? title = "";
+    private string? author = "";
+    private string? created="";
+    private string? body="";
+
+    private string errorLabel;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        errorLabel = "";
+        try
+        {
+            RedditPost result = await ForumService.getSpecificAsync(id);
+            title = result.title;
+            author = result.Author;
+            created = result.Created;
+            body = result.body;
+            
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errorLabel = e.Message;
+        }
+    }
+
+}

@@ -1,0 +1,69 @@
+{
+  "Users": [
+    {
+      "Username": "line",
+      "Password": "line",
+      "Email": "line@Nielsen",
+      "Name": "line Nielsen",
+      "Age": 19
+    },
+    {
+      "Username": "reinahrdt",
+      "Password": "tis",
+      "Email": "ayo@",
+      "Name": "mandmand",
+      "Age": 1119
+    }
+  ],
+  "Posts": [
+    {
+      "PostID": 1,
+      "Author": "line",
+      "title": "ja",
+      "body": "nej",
+      "Created": "20/10/2022"
+    },
+    {
+      "PostID": 2,
+      "Author": "line",
+      "title": "another ",
+      "body": "one",
+      "Created": "20/10/2022"
+    },
+    {
+      "PostID": 3,
+      "Author": "line",
+      "title": "hello",
+      "body": "waddup",
+      "Created": "20/10/2022"
+    },
+    {
+      "PostID": 4,
+      "Author": "line",
+      "title": "goddav",
+      "body": "mine homieeieiieei",
+      "Created": "28/10/2022"
+    },
+    {
+      "PostID": 5,
+      "Author": "line",
+      "title": "asdasdads",
+      "body": "asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdsdasdasdasdasdasd",
+      "Created": "02/11/2022"
+    },
+    {
+      "PostID": 6,
+      "Author": "line",
+      "title": "hello this is post",
+      "body": "ja det er en post den er god nok",
+      "Created": "02/11/2022"
+    },
+    {
+      "PostID": 7,
+      "Author": "line",
+      "title": "tis",
+      "body": "tis",
+      "Created": "07/11/2022"
+    }
+  ]
+}

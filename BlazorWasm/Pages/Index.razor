@@ -1,0 +1,27 @@
+﻿@page "/"
+
+
+@inject NavigationManager navMgr
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, User!</h1>
+
+<h3>Welcome Almost-Look-Alike-Reddit!</h3>
+
+<h5>If you want to use the site, you should first <a @onclick="goToLogin">login</a></h5>
+<h5>Or, if you haven't yet created an account, create one <a @onclick="goToSignup">here</a></h5>
+
+
+@code {
+    private void goToLogin()
+    {
+        navMgr.NavigateTo("/login");
+    }
+
+    private void goToSignup()
+    {
+        navMgr.NavigateTo("/signup");
+    }
+
+}
