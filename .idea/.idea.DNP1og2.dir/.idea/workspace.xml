@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ad49fdd-42ad-4d83-9657-d17bddc8185d" name="Changes" comment="" />
+    <list default="true" id="4ad49fdd-42ad-4d83-9657-d17bddc8185d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DNP1og2.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNP1og2.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aflevering 1 &amp; 2.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWasmJwtAuth.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP 1&amp;2.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP1og2.sln.DotSettings.user" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BlazorWasm/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FileData/DataContainer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FileData/FileContext.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -20,15 +27,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,6 +46,9 @@
       <updated>1667911202625</updated>
       <workItem from="1667911208499" duration="5000" />
       <workItem from="1667911263951" duration="134000" />
+      <workItem from="1667911457615" duration="78000" />
+      <workItem from="1667911569488" duration="46000" />
+      <workItem from="1667911641720" duration="214000" />
     </task>
     <servers />
   </component>
