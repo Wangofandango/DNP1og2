@@ -45,7 +45,6 @@ C:\Users\miloA\IdeaProjects\Semester 3\Login - Example\WebApi\bin\Debug\net6.0\d
 C:\Users\miloA\IdeaProjects\Semester 3\Login - Example\WebApi\obj\Debug\net6.0\refint\WebApi.dll
 C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\WebApi\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\WebApi\bin\Debug\net6.0\appsettings.json
-C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\WebApi\bin\Debug\net6.0\data.json
 C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\WebApi\bin\Debug\net6.0\WebApi.exe
 C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\WebApi\bin\Debug\net6.0\WebApi.deps.json
 C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\WebApi\bin\Debug\net6.0\WebApi.runtimeconfig.json
@@ -132,3 +131,4 @@ C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\WebApi\obj\Debug\net6.0\refint\We
 C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\WebApi\obj\Debug\net6.0\WebApi.pdb
 C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\WebApi\obj\Debug\net6.0\ref\WebApi.dll
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\WebApi\bin\Debug\net6.0\data.json

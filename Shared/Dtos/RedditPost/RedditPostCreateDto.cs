@@ -1,3 +1,5 @@
+using Shared.Models;
+
 namespace Shared.Dtos.RedditPost;
 
 public class RedditPostCreateDto

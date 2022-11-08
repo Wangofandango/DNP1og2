@@ -7,6 +7,6 @@ namespace BlazorWasm.Services;
 public interface IForumService
 {
     public Task<ICollection<RedditPostBasicDto>> getAsync();
-    public Task CreatePost(string title, string body, UserBasicDto author);
+    public Task CreatePost(RedditPostCreateDto dto);
     public Task<RedditPost> getSpecificAsync(int id);
 }

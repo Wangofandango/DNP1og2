@@ -46,10 +46,10 @@
         try
         {
             RedditPost result = await ForumService.getSpecificAsync(id);
-            title = result.title;
-            author = result.Author;
+            title = result.Title;
+            author = result.Author.Username;
             created = result.Created;
-            body = result.body;
+            body = result.Body;
             
         }
         catch (Exception e)

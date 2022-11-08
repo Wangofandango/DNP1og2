@@ -40,7 +40,7 @@ public class PostController : ControllerBase
     {
         try
         {
-            var posts = await postService.getAsync();
+            var posts = await postService.GetAsync();
             return Ok(posts);
         }
         catch (Exception e)
@@ -55,8 +55,12 @@ public class PostController : ControllerBase
         Console.WriteLine(id);
         try
         {
-            var result = await postService.getById(id);
-            
+            var result = await postService.GetById(id);
+
+            if (result == null)
+            {
+                return NotFound();
+            }
 
             return Ok(result);
         }

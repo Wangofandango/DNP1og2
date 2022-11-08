@@ -22,7 +22,6 @@ public class PostFileDAO : IPostDAO
         }
 
         postToCreate.PostID = postId;
-       
         _context.Posts.Add(postToCreate);
         _context.SaveChanges();
 
@@ -37,7 +36,7 @@ public class PostFileDAO : IPostDAO
         {
             resultBasicDtos.Add(new RedditPostBasicDto
             {
-                title = post.title,
+                title = post.Title,
                 author = post.Author.Username,
                 created = post.Created,
                 postId = post.PostID
@@ -52,7 +51,7 @@ public class PostFileDAO : IPostDAO
         RedditPost result = _context.Posts.FirstOrDefault(p => p.PostID == id)!;
         
         Console.WriteLine(result.PostID);
-        Console.WriteLine(result.title);
+        Console.WriteLine(result.Title);
         return Task.FromResult(result);
     }
 }

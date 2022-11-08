@@ -15,7 +15,7 @@ public class PostService : IPostService
     {
         _postLogic = postlogic;
     }
-    public Task CreatePost(RedditPostCreateDto dto)
+    public async Task CreatePost(RedditPostCreateDto dto)
     {
         if (string.IsNullOrEmpty(dto.Title))
         {
@@ -30,18 +30,16 @@ public class PostService : IPostService
             throw new ValidationException("Author Name cannot be null");
         }
 
-        _postLogic.CreateAsync(dto);
-        
-        return Task.CompletedTask;
+        await _postLogic.CreateAsync(dto);
     }
 
-    public Task<IEnumerable<RedditPostBasicDto>> getAsync()
+    public async Task<IEnumerable<RedditPostBasicDto>> GetAsync()
     {
-        return _postLogic.GetAsync();
+        return await _postLogic.GetAsync();
     }
 
-    public Task<RedditPost> getById(int id)
+    public async Task<RedditPost?> GetById(int id)
     {
-        return _postLogic.GetById(id);
+        return await _postLogic.GetById(id);
     }
 }

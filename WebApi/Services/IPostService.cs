@@ -6,6 +6,6 @@ namespace WebApi.Services;
 public interface IPostService
 {
     public Task CreatePost(RedditPostCreateDto dto);
-    public Task<IEnumerable<RedditPostBasicDto>> getAsync();
-    public Task<RedditPost> getById(int id);
+    public Task<IEnumerable<RedditPostBasicDto>> GetAsync();
+    public Task<RedditPost?> GetById(int id);
 }

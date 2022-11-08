@@ -32,7 +32,7 @@ public class ForumService : IForumService
     }
     
     
-    public async Task CreatePost(string title, string body, UserBasicDto author)
+    public async Task CreatePost(RedditPostCreateDto dto)
     {
         
         client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", JwtAuthService.Jwt);
@@ -40,9 +40,9 @@ public class ForumService : IForumService
 
        RedditPostCreateDto redditPostCreateDto = new()
         {
-            Title = title,
-            Body = body,
-            Author = author.Username!
+            Title = dto.Title,
+            Body = dto.Body,
+            Author = dto.Author
         };
 
         string postAsJson = JsonSerializer.Serialize(redditPostCreateDto);

@@ -9,9 +9,10 @@ public class PostLogic : IPostLogic
 {
     private readonly IPostDAO _postDao;
     private readonly IUserDao _userDao;
-    public PostLogic(IPostDAO postDao)
+    public PostLogic(IPostDAO postDao, IUserDao userDao)
     {
         _postDao = postDao;
+        _userDao = userDao;
     }
 
     public async Task<RedditPost> CreateAsync(RedditPostCreateDto dto)
@@ -20,14 +21,21 @@ public class PostLogic : IPostLogic
 
         User? author = await _userDao.GetByUsernameAsync(dto.Author);
         
-        RedditPost PostToCreate = new RedditPost
+        if (author == null)
         {
-            title = dto.Title,
-            body = dto.Body,
+            throw new NullReferenceException("Author name for post creation is null");
+        }
+        
+        RedditPost postToCreate = new RedditPost
+        {
+            Title = dto.Title,
+            Body = dto.Body,
             Author = author,
             Created = DateTime.Now.ToShortDateString()
         };
-        RedditPost created = await _postDao.CreateAsync(PostToCreate);
+        
+        RedditPost created = await _postDao.CreateAsync(postToCreate);
+        
         return created;
     }
 
