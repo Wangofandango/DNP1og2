@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IWjDdbWv/SMT1ztJ936oRaN7ZVuRvV6FZ9mKUzC8pOBVFRYQBYpH1jeAJqsYuIga0hmQapwGNVtwSkjJ19oXTA==",
+  "dgSpecHash": "B21pqEbS0IQMhlIbFo/tsN0O6E0nL3L+eeYmHAiEgNZ46hgTfZqmBkoptP+csygIOTWdoPDhR+37l1VOJyzs5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP 1 & 2\\BlazorWasm\\BlazorWasm.csproj",
+  "projectFilePath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\BlazorWasm\\BlazorWasm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\miloA\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.8\\microsoft.aspnetcore.authorization.6.0.8.nupkg.sha512",
     "C:\\Users\\miloA\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.7\\microsoft.aspnetcore.components.6.0.7.nupkg.sha512",

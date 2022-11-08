@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP 1 & 2\\Shared\\Shared.csproj": {}
+    "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP 1 & 2\\Shared\\Shared.csproj": {
+    "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP 1 & 2\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP 1 & 2\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\miloA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP 1 & 2\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miloA\\AppData\\Roaming\\NuGet\\NuGet.Config"
