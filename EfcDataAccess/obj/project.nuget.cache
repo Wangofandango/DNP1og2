@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jHDIy00LZzeLp7pBPcjb6q6u/oCoLXJBT2nJV6Ghm5zZBGchcaipscoJ1NYjMSzLbbgN/L2c7zYRLeg89xSOaQ==",
+  "dgSpecHash": "Hsrn9D6Ul1GKgTQHUz1vUbFpzfP7CnX7BZPxIw6EjSgez6Pf+yPR14tPXEy/BHnkgifgzLkORsChM8sd6V4VsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\EfcDataAccess\\EfcDataAccess.csproj",
+  "projectFilePath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\EfcDataAccess\\EfcDataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\miloA\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\miloA\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.7\\microsoft.aspnetcore.authentication.jwtbearer.6.0.7.nupkg.sha512",

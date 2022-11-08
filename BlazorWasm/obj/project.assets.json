@@ -1625,11 +1625,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\BlazorWasm\\BlazorWasm.csproj",
+      "projectUniqueName": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\BlazorWasm\\BlazorWasm.csproj",
       "projectName": "BlazorWasm",
-      "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\BlazorWasm\\BlazorWasm.csproj",
+      "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\BlazorWasm\\BlazorWasm.csproj",
       "packagesPath": "C:\\Users\\miloA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\BlazorWasm\\obj\\",
+      "outputPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\BlazorWasm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\miloA\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1644,8 +1644,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj"
+            "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Shared\\Shared.csproj"
             }
           }
         }

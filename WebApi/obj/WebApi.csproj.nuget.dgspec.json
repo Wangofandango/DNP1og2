@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Application\\Application.csproj": {
+    "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\miloA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Application\\obj\\",
+        "outputPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miloA\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj"
+              "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Shared\\Shared.csproj"
               }
             }
           }
@@ -61,74 +61,14 @@
         }
       }
     },
-    "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\FileData\\FileData.csproj": {
+    "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\FileData\\FileData.csproj",
-        "projectName": "FileData",
-        "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\FileData\\FileData.csproj",
-        "packagesPath": "C:\\Users\\miloA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\FileData\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\miloA\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Application\\Application.csproj"
-              },
-              "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\miloA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miloA\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -180,14 +120,14 @@
         }
       }
     },
-    "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\miloA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miloA\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -202,14 +142,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Application\\Application.csproj"
+              "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Application\\Application.csproj"
               },
-              "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\FileData\\FileData.csproj": {
-                "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\FileData\\FileData.csproj"
-              },
-              "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj"
+              "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Shared\\Shared.csproj"
               }
             }
           }

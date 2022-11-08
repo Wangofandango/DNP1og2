@@ -13,5 +13,5 @@ public class RedditPost
     public string Body { get; set; }
     public string Created { get; set; }
     
-    private RedditPost() {}
+    // private RedditPost() {}
 }

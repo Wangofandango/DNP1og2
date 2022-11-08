@@ -19,15 +19,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<FileContext>();
-builder.Services.AddScoped<IUserDao, UserFileDao>();
-builder.Services.AddScoped<IPostDAO,PostFileDAO>();
+builder.Services.Add
+builder.Services.AddScoped<IUserDao, UserEfcDao>();
+builder.Services.AddScoped<IPostDAO,PostEfcDAO>();
 
 builder.Services.AddScoped<IPostLogic, PostLogic>();
 builder.Services.AddScoped<IUserLogic, UserLogic>();
 
 builder.Services.AddScoped<IPostService, PostService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+
+
 
 // added auth handling
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
