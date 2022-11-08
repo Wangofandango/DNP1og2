@@ -10,3 +10,17 @@ C:\Users\miloA\IdeaProjects\Semester 3\Login - Example\Shared\obj\Debug\net6.0\S
 C:\Users\miloA\IdeaProjects\Semester 3\Login - Example\Shared\obj\Debug\net6.0\ref\Shared.dll
 C:\Users\miloA\IdeaProjects\Semester 3\Login - Example\Shared\obj\Debug\net6.0\Shared.pdb
 C:\Users\miloA\IdeaProjects\Semester 3\Login - Example\Shared\obj\Debug\net6.0\refint\Shared.dll
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\Shared\bin\Debug\net6.0\Shared.deps.json
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\Shared\bin\Debug\net6.0\Shared.runtimeconfig.json
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\Shared\bin\Debug\net6.0\Shared.dll
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\Shared\bin\Debug\net6.0\Shared.pdb
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\Shared\obj\Debug\net6.0\Shared.csproj.AssemblyReference.cache
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\Shared\obj\Debug\net6.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\Shared\obj\Debug\net6.0\Shared.AssemblyInfoInputs.cache
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\Shared\obj\Debug\net6.0\Shared.AssemblyInfo.cs
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\Shared\obj\Debug\net6.0\Shared.csproj.CoreCompileInputs.cache
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\Shared\obj\Debug\net6.0\Shared.dll
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\Shared\obj\Debug\net6.0\refint\Shared.dll
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\Shared\obj\Debug\net6.0\Shared.pdb
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\Shared\obj\Debug\net6.0\Shared.genruntimeconfig.cache
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\Shared\obj\Debug\net6.0\ref\Shared.dll

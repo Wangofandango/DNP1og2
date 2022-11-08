@@ -13,6 +13,13 @@
       "Email": "ayo@",
       "Name": "mandmand",
       "Age": 1119
+    },
+    {
+      "Username": "Troels",
+      "Password": "mortensen",
+      "Email": "torles@",
+      "Name": "Troels Mortensen",
+      "Age": 22
     }
   ],
   "Posts": [
@@ -63,6 +70,13 @@
       "Author": "line",
       "title": "tis",
       "body": "tis",
+      "Created": "07/11/2022"
+    },
+    {
+      "PostID": 8,
+      "Author": "Troels",
+      "title": "Dette er en meget sp\u00E6ndene titel",
+      "body": "endnu mere sp\u00E6ndene body, som matcher den sp\u00E6ndene titel",
       "Created": "07/11/2022"
     }
   ]

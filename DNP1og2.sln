@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileData", "FileData\FileData.csproj", "{E7C1F2AE-CE87-4147-B805-4C28474EC1D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfcDataAccess", "EfcDataAccess\EfcDataAccess.csproj", "{F7F2262A-B047-4ACE-839A-670944120E27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{E7C1F2AE-CE87-4147-B805-4C28474EC1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7C1F2AE-CE87-4147-B805-4C28474EC1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7C1F2AE-CE87-4147-B805-4C28474EC1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F2262A-B047-4ACE-839A-670944120E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F2262A-B047-4ACE-839A-670944120E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F2262A-B047-4ACE-839A-670944120E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F2262A-B047-4ACE-839A-670944120E27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

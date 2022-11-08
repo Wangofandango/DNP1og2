@@ -38,7 +38,7 @@ public class PostFileDAO : IPostDAO
             resultBasicDtos.Add(new RedditPostBasicDto
             {
                 title = post.title,
-                author = post.Author,
+                author = post.Author.Username,
                 created = post.Created,
                 postId = post.PostID
             });

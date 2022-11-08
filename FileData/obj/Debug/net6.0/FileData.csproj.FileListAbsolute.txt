@@ -15,3 +15,22 @@ C:\Users\miloA\IdeaProjects\Semester 3\Login - Example\FileData\obj\Debug\net6.0
 C:\Users\miloA\IdeaProjects\Semester 3\Login - Example\FileData\obj\Debug\net6.0\ref\FileData.dll
 C:\Users\miloA\IdeaProjects\Semester 3\Login - Example\FileData\obj\Debug\net6.0\FileData.pdb
 C:\Users\miloA\IdeaProjects\Semester 3\Login - Example\FileData\obj\Debug\net6.0\refint\FileData.dll
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\bin\Debug\net6.0\FileData.deps.json
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\bin\Debug\net6.0\FileData.runtimeconfig.json
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\bin\Debug\net6.0\FileData.dll
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\bin\Debug\net6.0\FileData.pdb
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\bin\Debug\net6.0\Application.dll
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\bin\Debug\net6.0\Shared.dll
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\bin\Debug\net6.0\Application.pdb
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\bin\Debug\net6.0\Shared.pdb
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\obj\Debug\net6.0\FileData.csproj.AssemblyReference.cache
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\obj\Debug\net6.0\FileData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\obj\Debug\net6.0\FileData.AssemblyInfoInputs.cache
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\obj\Debug\net6.0\FileData.AssemblyInfo.cs
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\obj\Debug\net6.0\FileData.csproj.CoreCompileInputs.cache
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\obj\Debug\net6.0\FileData.csproj.CopyComplete
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\obj\Debug\net6.0\FileData.dll
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\obj\Debug\net6.0\refint\FileData.dll
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\obj\Debug\net6.0\FileData.pdb
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\obj\Debug\net6.0\FileData.genruntimeconfig.cache
+C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\FileData\obj\Debug\net6.0\ref\FileData.dll
