@@ -1,8 +1,8 @@
 using System.Text;
 using Application.DaoInterfaces;
 using Application.Logic;
-using FileData;
-using FileData.DAO;
+using EfcDataAccess;
+using EfcDataAccess.Dao;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Shared.Auth;
@@ -19,9 +19,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.Add
+builder.Services.AddDbContext<DataContext>();
 builder.Services.AddScoped<IUserDao, UserEfcDao>();
-builder.Services.AddScoped<IPostDAO,PostEfcDAO>();
+builder.Services.AddScoped<IPostDAO,PostEfcDao>();
 
 builder.Services.AddScoped<IPostLogic, PostLogic>();
 builder.Services.AddScoped<IUserLogic, UserLogic>();
