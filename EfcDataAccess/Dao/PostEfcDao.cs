@@ -34,7 +34,7 @@ public class PostEfcDao : IPostDAO
 
     public async Task<IEnumerable<RedditPostBasicDto>> GetAsync()
     {
-        IEnumerable<RedditPostBasicDto> redditPostBasicDtos = _context.RedditPosts
+        IEnumerable<RedditPostBasicDto> redditPostBasicDtos = await _context.RedditPosts
             .Include(redditPost => redditPost.Author)
             .Select(c =>
                 new RedditPostBasicDto()
@@ -44,14 +44,11 @@ public class PostEfcDao : IPostDAO
                     created = c.Created,
                     postId = c.PostID
                 }
-            ).ToList();
+            ).ToListAsync();
 
 
-        foreach (var postBasicDto in redditPostBasicDtos)
-        {
-            Console.WriteLine(postBasicDto.author + postBasicDto.title + postBasicDto.created);
-        }
-        return await Task.FromResult(redditPostBasicDtos.AsEnumerable());
+        
+            return redditPostBasicDtos;
 
     }
 
