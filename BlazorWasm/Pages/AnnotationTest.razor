@@ -1,0 +1,62 @@
+@page "/test"
+@using global::Shared.Dtos
+<h3>AnnotationTest</h3>
+
+
+<EditForm Model="@TestAnnotation" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    
+    <div class="row content">
+        <div class="col-md-2"><label for="name">name</label></div>
+        <div class="col-md-3"><InputText id="name" @bind-Value="TestAnnotation.name" /></div>
+        
+    </div>
+    <div class="col-md-5">
+        <ValidationMessage For="@(() => TestAnnotation.name)"/>
+    </div>
+    
+    <div class="row content">
+            <div class="col-md-2"><label for="age">age</label></div>
+        <div class="col-md-3"><InputNumber  id="age" @bind-Value="TestAnnotation.age" /></div>
+            
+        </div>
+        <div class="col-md-5">
+            <ValidationMessage For="@(() => TestAnnotation.age)"/>
+        </div>
+
+    <div class="row content">
+                <div class="col-md-2"><label for="email">email</label></div>
+                <div class="col-md-3"><InputText id="email" @bind-Value="TestAnnotation.email" /></div>
+                
+            </div>
+    <div class="col-md-5">
+        <ValidationMessage For="@(() => TestAnnotation.email)"/>
+    </div>
+    
+    <div class="row content">
+                <div class="col-md-2"><label for="dogsname">dogsname</label></div>
+                <div class="col-md-3"><InputText id="dogsname" @bind-Value="TestAnnotation.dogsName" /></div>
+                
+            </div>
+    <div class="col-md-5">
+        <ValidationMessage For="@(() => TestAnnotation.dogsName)"/>
+    </div>
+    <div class="row content">
+    <div class="col-md-3"><button type="submit" class="btn btn-primary">Submit</button></div>
+    </div>
+    
+    
+</EditForm>
+
+@code {
+    TestAnnotation TestAnnotation = new TestAnnotation();
+    
+    
+    public void HandleValidSubmit()
+    {
+        Console.WriteLine("i did it");
+    }
+
+
+  
+}

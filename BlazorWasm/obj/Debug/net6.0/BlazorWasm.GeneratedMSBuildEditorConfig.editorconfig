@@ -11,53 +11,57 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BlazorWasm
 build_property.RootNamespace = BlazorWasm
-build_property.ProjectDir = C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\BlazorWasm\
+build_property.ProjectDir = C:\Users\miloA\IdeaProjects\Semester3\DNP1og2\BlazorWasm\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\miloA\IdeaProjects\Semester 3\DNP1og2\BlazorWasm
+build_property.MSBuildProjectDirectory = C:\Users\miloA\IdeaProjects\Semester3\DNP1og2\BlazorWasm
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/miloA/IdeaProjects/Semester 3/DNP1og2/BlazorWasm/App.razor]
+[C:/Users/miloA/IdeaProjects/Semester3/DNP1og2/BlazorWasm/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/miloA/IdeaProjects/Semester 3/DNP1og2/BlazorWasm/Pages/CreatePost.razor]
+[C:/Users/miloA/IdeaProjects/Semester3/DNP1og2/BlazorWasm/Pages/AnnotationTest.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5ub3RhdGlvblRlc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miloA/IdeaProjects/Semester3/DNP1og2/BlazorWasm/Pages/CreatePost.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/miloA/IdeaProjects/Semester 3/DNP1og2/BlazorWasm/Pages/Forum.razor]
+[C:/Users/miloA/IdeaProjects/Semester3/DNP1og2/BlazorWasm/Pages/Forum.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ydW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/miloA/IdeaProjects/Semester 3/DNP1og2/BlazorWasm/Pages/Post.razor]
+[C:/Users/miloA/IdeaProjects/Semester3/DNP1og2/BlazorWasm/Pages/Post.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/miloA/IdeaProjects/Semester 3/DNP1og2/BlazorWasm/_Imports.razor]
+[C:/Users/miloA/IdeaProjects/Semester3/DNP1og2/BlazorWasm/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/miloA/IdeaProjects/Semester 3/DNP1og2/BlazorWasm/Pages/Index.razor]
+[C:/Users/miloA/IdeaProjects/Semester3/DNP1og2/BlazorWasm/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-xzgi4u3qtl
 
-[C:/Users/miloA/IdeaProjects/Semester 3/DNP1og2/BlazorWasm/Pages/Login.razor]
+[C:/Users/miloA/IdeaProjects/Semester3/DNP1og2/BlazorWasm/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ggyo7swwbw
 
-[C:/Users/miloA/IdeaProjects/Semester 3/DNP1og2/BlazorWasm/Pages/LoginButtons.razor]
+[C:/Users/miloA/IdeaProjects/Semester3/DNP1og2/BlazorWasm/Pages/LoginButtons.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5CdXR0b25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-lhd5b4yoyf
 
-[C:/Users/miloA/IdeaProjects/Semester 3/DNP1og2/BlazorWasm/Pages/Signup.razor]
+[C:/Users/miloA/IdeaProjects/Semester3/DNP1og2/BlazorWasm/Pages/Signup.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbnVwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-jlwvjp97gg
 
-[C:/Users/miloA/IdeaProjects/Semester 3/DNP1og2/BlazorWasm/Shared/MainLayout.razor]
+[C:/Users/miloA/IdeaProjects/Semester3/DNP1og2/BlazorWasm/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-2ar46ifnr2
 
-[C:/Users/miloA/IdeaProjects/Semester 3/DNP1og2/BlazorWasm/Shared/NavMenu.razor]
+[C:/Users/miloA/IdeaProjects/Semester3/DNP1og2/BlazorWasm/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-oede2f5y32

@@ -10,28 +10,40 @@
           "Microsoft.Extensions.Options": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {}
+          "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {}
+          "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.AspNetCore.Metadata/6.0.8": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {}
+          "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {}
+          "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -40,10 +52,14 @@
       "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -56,10 +72,14 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.Primitives/6.0.0": {
@@ -68,10 +88,14 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -80,10 +104,14 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -327,11 +355,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\FileData\\FileData.csproj",
+      "projectUniqueName": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\FileData\\FileData.csproj",
       "projectName": "FileData",
-      "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\FileData\\FileData.csproj",
+      "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\FileData\\FileData.csproj",
       "packagesPath": "C:\\Users\\miloA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\FileData\\obj\\",
+      "outputPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\FileData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\miloA\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -346,11 +374,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Application\\Application.csproj"
+            "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Application\\Application.csproj"
             },
-            "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester 3\\DNP1og2\\Shared\\Shared.csproj"
+            "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\miloA\\IdeaProjects\\Semester3\\DNP1og2\\Shared\\Shared.csproj"
             }
           }
         }
